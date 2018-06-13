@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile of Jan Henning Jestaedt</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+
+  <!-- cdn link to paste in your <head> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+  </head>
+
+  <body>
+
+    <div class="box textbox">
+      <img src="images/profile-pic.png" id="profile" alt="profile-pic">
+
+      <h1>Jan Henning Jestädt</h1>
+      <h2>Product Guy & Entrepreneur</h2>
+
+      <p> Former Founder & Entrepreneur from Munich, Germany. Worked primarily as a Product Manager at my own start-up and now want to develop more profound technical knowledge. And obviously taste genuine Italian food!
+      </p>
+    </div>
+    <div class="box socialbox">
+      <h2>Let's get in touch</h2>
+
+      <ul>
+        <li>
+          <a class="social" href="https://www.facebook.com/janhenningwk" target="_blank">
+            <i class="fab fa-facebook-square social-icon"></i>
+            <br>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a class="social" href="https://www.instagram.com/jan2319/" target="_blank">
+            <i class="fab fa-instagram social-icon"></i>
+            <br>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a class="social" href="https://twitter.com/jan2319" target="_blank">
+            <i class="fab fa-twitter social-icon"></i>
+            <br>
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a class="social" href="https://www.linkedin.com/in/jan-henning-jest%C3%A4dt-947b5a11b/" target="_blank">
+            <i class="fab fa-linkedin social-icon"></i>
+            <br>
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a class="social" href="https://github.com/jan2319" target="_blank">
+            <i class="fab fa-github social-icon"></i>
+            <br>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a class="social" href="mailto:jan@simplora.de">
+            <i class="fas fa-envelope"></i>
+            <br>
+            E-Mail
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="box youtubevideo">
+        <h2>My Favorite Song (at the moment)</h2>
+
+        <p>Have a better one? Send it via <a href="mailto:jan@simplora.de">email</a>.</p>
+        <embed width="600" height="400"
+        src="https://www.youtube.com/embed/o6XsRhUFgeM">
+    </div>
+
+    <div class="box listed-table">
+      <h2>My Favorite Movies</h2>
+
+      <table>
+
+        <tbody>
+          <tr>
+            <td><img src="images/star-wars.jpg" alt="star-wars"></td>
+            <td>
+              <h3>Star Wars: A New Hope (1977)</h3>
+              <p>Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader...</p>
+              <p><a href="href="https://www.imdb.com/title/tt0076759/?ref_=fn_al_tt_1"">Read More</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td><img src="images/jurassic.jpg" alt="jurassic-park"></td>
+              <td>
+                <h3>Jurassic Park (1993)</h3>
+                <p>During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok...</p>
+                <p><a href="href="https://www.imdb.com/title/tt0107290/?ref_=nv_sr_1"">Read More</p>
+                </td>
+            </tr>
+
+            <tr>
+              <td><img src="images/indiana-jones.jpg" alt="indiana-jones"></td>
+              <td>
+                <h3>Indiana Jones and the Last Crusade (1989)</h3>
+                <p>In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against Adolf Hitler's Nazis again to stop them obtaining its powers...</p>
+                <p><a href="href="https://www.imdb.com/title/tt0097576/?ref_=fn_al_tt_3"">Read More</p>
+              </td>
+            </tr>
+        </tbody>
+
+      </table>
+
+
+      </div>
+
+      <div class="box textbox">
+          <h2>Current Location</h2>
+
+          <p>Let's meet for a coffee in case you are around.</p>
+          <div id="map" style="width:600px;height:400px">My map will go here</div>
+          <script>
+
+            function initMap() {
+              var myLatLng = {lat: 45.4658304, lng: 9.1737208};
+
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: myLatLng
+              });
+
+              var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Hello World!'
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2rh3FQs8tzkTfqRWC7zPQHHBaPRkz6BY&callback=initMap">
+        </script>
+      </div>
+
+      <div class="box textbox">
+        <h2>About this page</h2>
+
+        <p>This page has been coded during the <a href="#">FullStack program @LeWagon</a>.</p>
+      </div>
+
+      </body>
+      </html>

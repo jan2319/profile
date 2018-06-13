@@ -1,0 +1,106 @@
+/*Colors:
+#E24E42 red
+#E9B000 yellow
+#EB6E80 blush
+#008F95 aqua*/
+
+body {
+  background: rgb(240,240,240);
+  background-image: url("images/random_grey_variations.png");
+  font-family: "Open Sans";
+  color: #444;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration:  none;
+  color: #E24E42;
+}
+
+a:hover {
+  color: #E24E42;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+td {
+  padding: 25px;
+}
+
+hr { width:100%; height:1px; background: #fff }
+
+.social {
+  color: #444;
+}
+
+.social:hover {
+  color: #E24E42;
+}
+
+.social-icon {
+  color: #444;
+}
+
+.social-icon:hover {
+  color: #E24E42;
+}
+
+.box {
+  background-color: white;
+  margin: 0px auto;
+  padding: 20px;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 0px rgb(220,220,220);
+}
+
+.box h2 {
+  padding-bottom: 10px;
+}
+
+.textbox p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.listed-table {
+  text-align: left;
+}
+
+.listed-table h2 {
+  text-align: center;
+}
+
+
+#profile {
+  width: 200px;
+  heigth: 200px;
+  border-radius: 50%;
+}
+
+
