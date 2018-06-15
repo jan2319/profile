@@ -1,37 +1,6 @@
-
-#sidebar {
-  background-color: #424851;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  width: 120px;
-  text-align: center;
-}
-
-#page-content {
-  margin-left: 80px;
-}
-
-#sidebar ul {
-  display: block;
-  list-style: none;
-  padding-left: 0px;
-}
-
-#sidebar li {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-#sidebar a {
-  color: white;
-  font-size: 30px;
-}
-
-#sidebar a:hover {
-  color: #E24E42;
-}
+@import url("components/sidebar.css");
+@import url("components/page.css");
+@import url("components/social.css");
 
 body {
   background: rgb(240,240,240);
@@ -41,35 +10,9 @@ body {
   font-size: 16px;
 }
 
-#page-content h1 {
-  font-size: 28px;
-}
-
-#page-content h2 {
-  font-size: 24px;
-}
-
-#page-content h3 {
-  font-size: 18px;
-}
-
-#page-content ul {
-  list-style: none;
-  padding-left: 0px;
-}
-
 a {
   text-decoration:  none;
   color: #E24E42;
-}
-
-#page-content a:hover {
-  color: #E24E42;
-}
-
-#page-content li {
-  display: inline-block;
-  padding: 10px;
 }
 
 h2 {
@@ -81,23 +24,6 @@ td {
 }
 
 hr { width:100%; height:1px; background: #fff }
-
-.social {
-  color: #444;
-}
-
-.social:hover {
-  color: #E24E42;
-}
-
-.social-icon {
-  color: #444;
-  font-size: 24px;
-}
-
-.social-icon:hover {
-  color: #E24E42;
-}
 
 .box {
   background-color: white;

@@ -1,0 +1,74 @@
+@import url("components/social.css");
+@import url("components/page.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("layouts/profile.css");
+@import url("components/cards.css");
+
+body {
+  background: rgb(240,240,240);
+  font-family: "Open Sans";
+  color: #444;
+  font-size: 16px;
+}
+
+a {
+  text-decoration:  none;
+  color: #E24E42;
+}
+
+h1 {
+  font-size: 50px !important;
+  font-weight: bold !important;
+}
+
+h2 {
+  padding: 50px;
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
+#profile {
+  width: 200px;
+  heigth: 200px;
+  border-radius: 50%;
+}
+
+.wrapper-darkblue {
+  background-color: #4967ad;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.wrapper-white {
+  background-color: white;
+}
+
+.wrapper-grey {
+  background-color: #F4F4F4;
+}
+
+.wrapper-white h2 {
+  padding: 0px;
+  padding-top: 20px;
+}
+
+.videocontainer {
+  text-align: center;
+}
+
+.padded {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.btn-blue {
+  background-color: #4967ad;
+}
+
+
+
+
+
+

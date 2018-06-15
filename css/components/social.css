@@ -1,0 +1,16 @@
+.social {
+  color: #444;
+}
+
+.social:hover {
+  color: #E24E42;
+}
+
+.social-icon {
+  color: #444;
+  font-size: 24px;
+}
+
+.social-icon:hover {
+  color: #E24E42;
+}
