@@ -16,13 +16,14 @@
   left: 0;
   right: 0;
   /*height: calc(100% - 20px);*/
-  padding: 10px;
+  padding: 30px;
   opacity: 0;
   transition: .3s;
 }
 
 .card-white:hover .card-hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .card-hover h3 {
@@ -41,7 +42,6 @@
 }
 
 .card-links a {
-  color: grey;
   opacity: 0.6;
   text-decoration: none;
   padding: 3px;
@@ -66,5 +66,5 @@
 
 .cards a {
   text-decoration: none !important;
-  color: white !important;
+  color: #888888 !important;
 }

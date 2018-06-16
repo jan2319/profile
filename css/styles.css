@@ -7,7 +7,6 @@
 @import url("components/cards.css");
 
 body {
-  background: rgb(240,240,240);
   font-family: "Open Sans";
   color: #444;
   font-size: 16px;
@@ -35,6 +34,15 @@ h2 {
   font-weight: bold !important;
 }
 
+.padded-text {
+  font-size: 20px;
+  font-family: Open Sans;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
 #profile {
   width: 200px;
   heigth: 200px;
@@ -49,7 +57,7 @@ h2 {
 }
 
 .wrapper-white {
-  background-color: white;
+  background-color: transparent;
 }
 
 .wrapper-grey {
@@ -92,7 +100,9 @@ h2 {
   font-weight: bold !important;
 }
 
-
+#map {
+  margin-top: 100px;
+}
 
 
 
