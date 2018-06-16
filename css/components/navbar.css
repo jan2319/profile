@@ -1,9 +1,11 @@
 .tabs {
   background: #4967ad;
   display: flex;
-  padding: 10px 10px 0 10px
+  padding: 10px 10px 0 10px;
 }
+
 .tabs a {
+  font-size: 20px;
   color: white;
 }
 .tabs a:hover {
@@ -17,12 +19,13 @@
   margin-top: 0;
 }
 .tabs p {
+  font-size: 17px;
   opacity: 0.5;
   margin-bottom: 0;
 }
 .tab {
   background: #5d81df;
-  flex: 0 0 25%;
+  flex: 0 0 20%;
   text-align: center;
   padding: 20px 0;
 }

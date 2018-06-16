@@ -1,9 +1,70 @@
 .card {
-  background: white;
-  padding: 20px;
-  box-shadow: 0 0 1px rgba(0,0,0,0.3);
-  display: flex;
+  margin-bottom: 20px;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(70, 70, 70, 0.6);
+  padding :10px;
+}
+
+.card-hover {
+  background-color: rgba(255,255,255, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*height: calc(100% - 20px);*/
+  padding: 10px;
+  opacity: 0;
+  transition: .3s;
+}
+
+.card-white:hover .card-hover {
+  opacity: 1;
+}
+
+.card-hover h3 {
+  margin: 0;
+}
+
+.card-picture {
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
+.card-links {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.card-links a {
+  color: grey;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.card-links a:hover {
+  opacity: 1;
+}
+
+.card-footer {
+  display:flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 10px;
+}
+
+.card-footer img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.cards a {
+  text-decoration: none !important;
+  color: white !important;
 }

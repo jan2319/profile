@@ -1,0 +1,39 @@
+.clickbox {
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-size: cover;
+  transition: all 0.5s;
+}
+
+.clickbox h2 {
+  opacity: 0.8;
+  padding-top: 0px !important;
+}
+
+.clickbox p {
+  opacity: 0.8 !important;
+  font-size: 20px;
+}
+
+.clickbox:hover h2 {
+  opacity: 1 !important;
+}
+
+.clickbox:hover p {
+  opacity: 1 !important;
+}
+
+.clickbox:hover {
+  cursor: pointer;
+  background: #4967ad;
+  background-size: cover;
+  transform: scale(1.05);
+}
+
+.clickbox-content {
+  text-align: center;
+}
